@@ -3,7 +3,9 @@ pipeline{
     stages {
         stage('Build') {
             steps {
-                echo "Echo Hi devi deployment done!!"
+                echo "This is example for build triggers using github hook"
+                echo "**** next one is linux whoami command ***"
+                sh "whoami"
             }
         }
     }
