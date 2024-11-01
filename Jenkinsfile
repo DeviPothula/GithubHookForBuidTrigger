@@ -9,6 +9,7 @@ pipeline{
                 echo "This is to test poll SCM i sheduled to check for every minute , every hour , every daya, every month , every Yesar"
                 echo "***** ### **"
                 echo "Poll Scm is opposite to gitbub hook it jenkins will check for commit and push  based given shedule"
+                echo "bye"
             }
         }
     }
