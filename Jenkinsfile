@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('Build') {
             steps {
-                echo "This is example for build triggers using github hook"
+                echo "This is example for build triggers using github hook tst"
                 echo "**** next one is linux whoami command ***"
                 sh "whoami"
                 echo "This is to test poll SCM i sheduled to check for every minute , every hour , every daya, every month , every Yesar"
